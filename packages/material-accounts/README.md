@@ -1,0 +1,1 @@
+Material design accounts ui package for angular-meteor apps

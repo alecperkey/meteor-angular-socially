@@ -28,12 +28,12 @@ angular.module("socially").config(function ($urlRouterProvider, $stateProvider, 
       }
     })
 
-    .state('register',{
-      url: '/register',
-      templateUrl: 'client/users/views/register.ng.html',
-      controller: 'RegisterCtrl',
-      controllerAs: 'rc'
-    })
+    //.state('register',{
+    //  url: '/register',
+    //  templateUrl: 'client/users/views/register.ng.html',
+    //  controller: 'RegisterCtrl',
+    //  controllerAs: 'rc'
+    //})
     .state('resetpw', {
       url: '/resetpw',
       templateUrl: 'client/users/views/reset-password.ng.html',
